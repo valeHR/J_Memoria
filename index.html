@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Memoria</title>
+  <link rel="stylesheet" href="stys.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego de Memoria</h1>
+    <p class="instructions">En este juego tienes que emparejar las cartas. Haz clic en las cartas para voltear y encontrar los pares correspondientes. ¡Sigue jugando hasta encontrar todos los pares!</p>
+    <div class="game-container">
+      <div class="board" id="board"></div>
+      <div class="score">
+        <p>Puntaje: <span id="score">0</span></p>
+        <button onclick="startGame()">Iniciar Juego</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; Juego de Memorias.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
